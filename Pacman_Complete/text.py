@@ -53,7 +53,7 @@ class TextGroup(object):
         self.textlist["level_label"] = Text("LEVEL", WHITE, 23*TILEWIDTH, 0, TILEHEIGHT)
         self.textlist["score"] = Text("0".zfill(8), WHITE, 0, TILEHEIGHT, TILEHEIGHT)
         self.textlist["level"] = Text("0".zfill(3), WHITE, 23*TILEHEIGHT, TILEHEIGHT, TILEHEIGHT)
-        self.textlist["ready"] = Text("READY!", YELLOW, 11.25*TILEWIDTH, 20*TILEHEIGHT, TILEHEIGHT, False)
+        self.textlist["ready"] = Text("PRESS SPACE TO START", YELLOW, 11.25*TILEWIDTH, 20*TILEHEIGHT, TILEHEIGHT, False)
         self.textlist["paused"] = Text("PAUSED!", YELLOW, 10.625*TILEWIDTH, 20*TILEHEIGHT, TILEHEIGHT, False)
         self.textlist["gameover"] = Text("GAMEOVER!", RED, 10*TILEWIDTH, 20*TILEHEIGHT, TILEHEIGHT, False)
 
